@@ -21,7 +21,7 @@
       var listOfItems = string.split(',');
       var totalNumberOfItems = listOfItems.length;
       for (var i = 0; i < listOfItems.length; i++) {
-        if (listOfItems[i].trim() != '') {
+        if (listOfItems[i].trim() == '') {
           totalNumberOfItems -= 1;
         }
       }
