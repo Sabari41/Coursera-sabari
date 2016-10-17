@@ -12,6 +12,9 @@
         if (noOfItems > 3) {
           $scope.LunchCheckResult = "Too much too eat lunch";
         }
+        else if (noOfItems==0) {
+          $scope.LunchCheckResult = "Please enter your lunch items to define the healthiness";
+        }
         else {
           $scope.LunchCheckResult = "Enjoy the health !";
         }
