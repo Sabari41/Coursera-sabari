@@ -10,7 +10,7 @@
       $scope.setLunch = function () {
         var noOfItems = findNumberOfStrings($scope.LunchMenu);
         if (noOfItems > 3) {
-          $scope.LunchCheckResult = "Too much too eat lunch";
+          $scope.LunchCheckResult = "Too much to eat lunch";
         }
         else if (noOfItems==0) {
           $scope.LunchCheckResult = "Please enter your lunch items to define the healthiness";
